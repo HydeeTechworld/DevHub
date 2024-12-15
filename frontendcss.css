@@ -1,0 +1,21 @@
+body{
+background-color:#f1f1d2
+}
+table, th, td {
+  border:3px solid #fff;
+padding:5px 5px;
+color:black
+}
+
+#footer{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+.btn{
+font-size:17px
+}
+p{
+font-weight:bold;
+}

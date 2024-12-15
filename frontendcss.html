@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Front end CSS web development</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href="frontendcss.css">
+ <meta name="keyword" content="front end web development,css course"
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="text-primary mt-4 text-center">FRONT END DEVELOPMENT<br>CSS COURSE</h1>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg">
+<img src="frontendhtmlcssjavascript.jpg" class="d-block w-100" alt="front-end image"> 
+</div>
+</div>
+</div>
+<h3 class="text-dark mt-5">WEB DEVELOPMENT.</h3><br>
+
+<h1 class="text-primary">CSS INTRODUCTION:</h1><br>
+<p class="text-dark fs-3 display-2">CSS stands for “Cascading Style Sheet”<br>which is used for styling websites to make it looks beautiful and attractive.it like a ladder/paint for adding layout,colors etc to house.</p><br>
+<p class="text-dark fs-3 display-2">So,every web developer must learn css to be able to add styling design to their websites.you have known the meaning and uses of CSS.</p>
+<br>
+<span class="text-dark fs-3">An illustration of CSS below:</span>
+<br><br>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg">
+<img src="css.jpg" class="d-block w-100" alt="css image illustration">
+</div>
+</div>
+</div>
+<br><br>
+<h4 class="text-primary">CSS CORE:</h4><br>
+<span class="text-dark fs-3">Code editors.</span><br>
+<span class="text-dark fs-3">Rules/Syntax.</span><br>
+<span class="text-dark fs-3">CSS file/Inclusion.</span><br>
+<span class="text-dark fs-3">Texts.</span><br>
+<span class="text-dark fs-3">Measuring units.</span><br>
+<span class="text-dark fs-3">Backgrounds.</span><br>
+<span class="text-dark fs-3">Margins/Borders/Paddings.</span><br>
+<span class="text-dark fs-3">Dimension.</span><br>
+<span class="text-dark fs-3">Fonts.</span><br>
+<span class="text-dark fs-3">Comments.</span><br>
+<span class="text-dark fs-3">Media queries.</span><br>
+<br>
+<p class="text-dark fs-3 display-2">Let’s explore the outlines respectively:</p>
+<br><br>
+<span class="text-primary fs-5">Code editors:</span>
+<p class="text-dark fs-3 display-2">Code editors are used for writing and running codes. There are multiples of code editors that are used for coding but it depends on ur favorite and choice code editor that will be suitable for you.</p>
+<br><br>
+<table class="text-light w-100">
+<tr>
+<th>Web dev</th>
+<th>Web dev</th>
+<th>Web dev</th>
+<th>Web dev</th>
+<th>Web dev</th>
+<th>Web dev</th>
+</tr>
+<tr>
+<td>Visual Studio code</td>
+<td>Notepad++</td>
+<td>Atom</td>
+<td>Vim</td>
+<td>Replit</td>
+<td>Sublime</td>
+</tr>
+</table>
+<br>
+<p class="text-dark fs-3 display-2">The most common used code editor is the visual Studio code(VS code) because it works across platform including windows,Linux, and macOS and also has a lot of features and functions for easy web development process.</p><br>
+<p class="text-dark display-2 fs-3">You can download it by searching (code.visualstudio.com) and install it in your PC.</p><br>
+<p class="text-dark fs-3 display-2">If you don’t have PC,you can also learn/practice coding with your smartphone. Here are some smartphone code editors for HTML,CSS and JavaScript which are available on Google play store and Apple App Store:
+</p>
+<br>
+<table class="text-light w-100">
+ <tr>
+<th>Android users</th>
+<th>IPhone users</th>
+ </tr>
+ <tr>
+<td>Spck editor,Acode,Anwriter or TrebEdit</td>
+<td>JSitor</td>
+ </tr>
+</table>
+<br><br>
+<span class="text-primary fs-5">Rule/Syntax:</span><br>
+<p class="text-dark fs-3 display-2"><span class="text-primary">Selectors</p> are used to specifies or indicate html elements in the CSS file.</p><br>
+<p class="text-dark fs-2 display-3"><span class="text-primary">Properties</span> are type of attribute of HTML tag. Put simply,all the HTML attributes are converted into CSS properties. They could be color,border etc.</p><br>
+<p class="text-dark"><span class="text-primary fs-3 display-2">Values</span> are assigned to properties. For example,color property have value either red or #F1F1F1 etc.</p>
+<br><br>
+<span class="text-primary fs-5">Types of selectors:</span>
+<br><br>
+<span class="text-primary fs-5">The element selector:</span><br>
+<p class="text-dark fs-3 display-2">The element selector is used to access html elements to change it properties and values.</p><br>
+<span class="text-dark fs-5">Example:</span><br>
+<p class="text-däřk fs-3">HTML code below;</p><br>
+<p class="text-däřk fs-3 display-2">&lt;h1&gt; Hello World &lt/h1&gt;</p><br>
+<p class="text-däřk fs-3 display-2">CSS element selector below;</p><br>
+<p class="text-dark fs-3 display-3">h1{
+color:#fff;
+}
+</p><br>
+<p class="text-primary fs-3">h1</p><p class="text-dark"> is the CSS element selector which will turn the text(Hello World) color to white.</p>
+</p>
+<br><br>
+<span class="text-primary fs-5">The universal selector:</span>
+<p class="text-dark fs-3 display-2">The universal selector is used to access all the html elements.</p><br>
+<span class="text-dark fs-5">Example:</span><br>
+<p class="text-dark fs-3 display-2">HTML universal example below;</p><br>
+<p class="text-dark fs-3">&lt;ul&gt;</p>
+<p class="text-dark fs-3">&lt;li&gt; Hello World &lt;/li&gt</p><br>
+<p class="text-dark fs-3">&lt;li&gt; Hello World &lt;/li&gt;</p>
+<p class="text-dark fs-3">&lt;li&gt; Hello World &lt;/li&gt;</p>
+<p class="text-dark fs-3">&lt;/ul&gt;</p><br>
+<p class="text-dark fs-3">CSS universal selector below;</p><br>
+<p class="text-dark fs-3">* { 
+   color:red; 
+text-align:center;
+}
+</p><br>
+<p class="text-dark"><span class="text-primary fs-3">*</span> is the universal selector which will turn the unordered and list item html tags text(Hello World) color to red.</p><br>
+<span class="text-dark fs-5">The class selector:</span><br>
+<p class="text-däřk fs-2 display-3">The class selector is used to access html attribute name which is the class attribute using the period(.) sign.</p><br>
+<span class="text-dark fs-5">Example:</p><br>
+<p class="text-dark fs-3">HTML class attribute below;</p><br>
+<p class="text-dark fs-3">&lt;div class=“card”>&lt;/div&gt;</p><br>
+<p class="text-dark fs-3">CSS class selector below;</p><br>
+<p class="text-dark fs-3">.card{
+border-color:green;
+}
+</p>
+<br>
+<p class="text-primary fs-3">.</p><p class="text-däřk fs-3"> is the class selector which will turn the div border color to green.</p><br>
+<span class="text-primary fs-5">The id selector:</span><br>
+<p class="text-dark fs-3 display-2">The id selector is used to access html attribute name which is the id attribute using the hash(#) sign.</p><br>
+<span class="text-dark fs-5">Example:</span><br>
+<p class="text-dark fs-3">HTML id attribute below;</p><br>
+<p class="text-däřk fs-3">&lt;h1 id=“card”>&lt;/h1&gt;<br>
+CSS id selector below;
+#card{
+color:red;
+}
+</p><br>
+<span class="text-primary fs-5">The Attribute selector:</span><br>
+<p class="text-dark fs-3 display-3">The attribute selector is used to access html input value using the type attribute name.</p><br>
+<p class="text-dark fs-3">Example:</p><br>
+<p class="text-dark fs-3">HTML input type value below;</p><br>
+<p class="text-dark fs-3">input type=“text”>
+CSS attribute selector below;
+input[type = "text"] {
+   color: #000000; 
+}
+</p><br>
+<span class="text-primary fs-5">The Grouping selector:</span><br>
+<p class="text-dark fs-3 display-2">The grouping selector is used to access all html elements by inline grouping.</p><br>
+<p class="text-dark fs-3 display-2">They consist of the type,class,and id selectors.</p><br>
+<span class="text-dark fs-3">Examples:</span><br>
+<span class="text-primary fs-5">The type grouping selector:</span><br>
+<p class="text-dark fs-3">HTML type grouping selector below;</p><br>
+<p class="text-dark fs-3">&lt;h1>Hello World &lt;/h1&gt;<br>
+&lt;h2>Hello World &lt;/h2><br>
+&lt;h3>Hello World &lt;/h3><br><br>
+<p class="text-dark fs-3">CSS type grouping selector below;</p><br>
+<p class="text-dark fs-3">h1, h2, h3 {
+   color: #36C;
+   font-weight:600;
+   letter-spacing: .4em;
+   margin-bottom: 1em;
+   text-transform: lowercase;
+}
+</p><br>
+<p class="text-dark fs-3">The class grouping selector</p><br>
+<p class="text-dark">HTML class grouping selector below;</p><br>
+<p class="text-dark fs-3">&lt;h1 class=“card”>Hello World&lt;/h1><br>
+&lt;h2 class=“word”>Hello World &lt;/h2><br>
+&lt;h3 class=“good”>Hello World &lt;/h3></br><br>
+<p class="text-däřk fs-3">CSS class grouping selector below;</p><br>
+<p class="text-dark fs-3">.card, .word, .good {
+   color: #218ffc;
+   font-weight: bold;
+   letter-spacing: .4em;
+   margin-bottom: 1em;
+   text-transform: lowercase;
+}
+</p><br>
+<p class="text-dark fs-3">The id grouping selector
+HTML id grouping selector below;</p><br>
+<p class="text-dark fs-3">&lt;h1 id=“card”>Hello World &lt;/h1><br>
+&lt;h2 id=“word”>Hello World &lt;/h2><br>
+&lt;h3 id=“good”>Hello World &lt;/h3><br>
+<p class="text-dark fs-3">CSS id grouping selector below;</p><br>
+<p class="text-dark fs-3">#card, #word, #good {
+   color: #218ffc;
+   font-weight: bold;
+   letter-spacing: .4em;
+   margin-bottom: 1em;
+   text-align:center;
+}
+</p><br><br>
+<span class="text-primary fs-5">CSS Rules syntax:</span><br><br>
+<p class="text-dark">selector{ property: value}</p>
+<br><br>
+<p class="text-dark">CSS selectors below;</p>
+<br>
+<img src="cssselectors.jpeg" class="d-block w-100" alt="html selectors">
+<br><br>
+<span class="text-primary fs-3">CSS file/Inclusion:</span><br>
+<p class="text-dark fs-3">CSS file is created using the period(.) sign and css.</p><br>
+<span class="text-dark fs-5">CSS file syntax;</span><br>
+<p class="text-dark fs-3">Your (filename.css)</p><br>
+<p class="text-dark fs-3 display-2">Note:if you don’t add the css after the period(.),the css file won’t work.</p><br>
+
+<p class="text-dark fs-3">CSS inclusion can be include in HTML document in four ways. Most commonly used methods are the inline CSS and external CSS.</p>
+<br>
+<p class="text-dark fs-3">The four ways to link CSS into HTML document.</p><br>
+<span class="text-primary fs-5">Internal CSS:</span><br>
+<p class="text-dark fs-3">CSS can be linked by using the style tag attribute in HTML document.</p><br>
+<p class="text-primary fs-3">Internal CSS syntax:</p><br>
+<p class="text-dark fs-3">
+&lt;style>selector{property:value;}
+&lt;/style>
+</p><br>
+<span class="text-primary fs-5">Inline CSS :</span>
+<p class="text-dark fs-3 display-2">Inline CSS is linked using the style attribute.</p>
+<br>
+<p class="text-dark fs-3">Inline CSS syntax:</p><br>
+<p class="text-dark fs-3">&lt;tagName>style ="property:value">contents &lt/tagName></p>
+<span class="text-dark fs-3">Example:</span><br>
+<p class="text-dark fs-3">
+&lt;h1 style="color:blue">&lt;/h1>
+</p>
+<br>
+<p class="text-dark fs-3 display-2">h1 is the html Heading one tag, style is the Inline css attribute while /h1> is the closing tag.</p><br>
+<p class="text-dark fs-3 display-3"></p><br>
+<span class="text-primary fs-5">External:</span><br>
+<p class="text-dark fs-3 display-2">CSS external is a separate text file with (filename.css) extension.it is linked using the <link> tag and filename.css inside the Head tag of HTML document.</p>
+<br>
+<span class="text-primary fs-5">External CSS syntax:</span><br>
+<p class="text-dark fs-3">&lt;link rel=“stylesheet” href=“filename.css”></p>
+<br>
+<span class="text-primary fs-5">Imported CSS:</span><br>
+<p class="text-dark fs-3 display-2">Imported CSS is used to import an external stylesheet in a manner similar to the link element.it is linked using the @import and URL between the head tag of HTML document.</p><br>
+
+<p class="text-dark fs-3">Imported CSS syntax:</p>
+<p class="text-dark fs-3">&lt;head>
+   @import "URL";
+&lt;/head>
+</p><br>
+<br>
+<span class="text-primary fs-5">Texts/Colors:</span><br>
+<p class="text-dark fs-3 display-2">CSS Text properties change text in HTML document.it is used to manipulate text using CSS.</p><br>
+<p class="text-dark fs-3 display-2">CSS color property is used to add color on HTML documents.it can be red,green and blue(RGB),hexadecimal codes(HEX) or color names.</p>
+<br>
+<span class="text-dark fs-5">Examples:</span>
+<br>
+<p class="text-dark fs-3">&lt;p Hello World &lt;/p></p>
+<br>
+<p class="text-dark fs-3">
+p{
+color:blue;
+background-color:#00ff00
+}
+</p>
+<br>
+<p class="text-dark fs-3 display-2">This will change the Hello World text color to red and background color to green</p>
+<br><br>
+<span class="text-primary fs-5">Measuring units:</span><br>
+<p class="text-dark fs-3 display-2">CSS measuring units are the number of measurement including absolute units such as inches,centimetres,points,and so on,as well as relative measures such as percentages and em units. You need these values while specifying various measurements in your style rules e.g. border=“1px solid red”.
+</p><br>
+<span class="text-dark fs-5">Types:</span><br>
+<p class="text-dark fs-3 display-2">Percentage “%”,centimetre “cm”,”em”,”ex”,inches “in”,millimetre “mm”,picas “pc”,point “pt”,pixel “px”.</p>
+<br><br>
+<span class="text-primary fs-5">Backgrounds:</span><br>
+<p class="text-dark fs-3 display-2">CSS background properties allows you to set the background property of an html document.</p><br>
+<span class="text-dark fs-3">Types</span>
+<br>
+<p class="text-dark fs-3 display-2">background-color, images, etc.</p><br>
+<br>
+<span class="text-primary fs-5">Margins/Borders/Paddings:</span><br>
+<p class="text-dark fs-3 display-2">CSS margin properties set the space around an HTML element.</p><br>
+<p class="text-dark fs-3">Types:</p>
+<p class="text-dark fs-3 display-2">margin, margin-top,margin-bottom, margin-right and margin-left. </p><br><br>
+<span class="text-primary fs-5">Borders:</span><br>
+<p class="text-dark fs-3 display-2">CSS border properties allow you to specify how the border of the box representing an element should look.</p><br>
+<p class="text-dark fs-3">Types:</p><br>
+<p class="text-dark fs-3 display-2">border,border-top, border-bottom,border-right,border-left,border-box, border-style, etc.</p><br><br>
+<span class="text-primary fs-5">Paddings:</span><br>
+<p class="text-dark fs-3 display-2">CSS padding properties allows you to specify how much space should appear between contents and it’s border.</p><br>
+<p class="text-dark fs-5">Types:</p><br>
+<p class="text-dark fs-3 display-2">padding,padding-top,padding-bottom,padding-right and padding-left.</p>
+<br><br>
+<span class="text-primary fs-5">Dimension:</span><br>
+<p class="text-dark fs-3 display-2">CSS dimension allows you to set the position or align the margin,border and padding in order by using the css value below.</p><br>
+<p class="text-dark fs-5">Types:</p>
+<p class="text-dark fs-3 display-2">height,width,max-width,auto,length,percent sign(%) etc.</p>
+<br><br>
+<span class="text-primary fs-5">Fonts:</span><br>
+<p class="text-dark fs-3 display-2">CSS font properties allow you to set how your html document will look like.</p><br>
+<p class="text-dark fs-5">Types:</p><br>
+<p class="text-dark fs-3 display-2">font-size,font-weight,font-family,font-google etc. </p>
+<br><br>
+<span class="text-primary fs-5">Comments:</span><br>
+<p class="text-dark fs-3 display-2">CSS comments are some texts written in codes to give an explanation about the code,and they are not visible to the user.it makes code easy to understand and increase readability of code.there are two types of css comments namely:</p><br>
+<p class="text-dark fs-3">Single line comment and<br>Multiple line comment</p>
+<br>
+<p class="text-dark fs-3 display-2">CSS  single line comment syntax:</p><br>
+<p class="text-dark fs-3">/*This is single line comment*/</p>
+<br>
+<p class="text-dark fs-3">CSS multiple line comment syntax:</p><br>
+<p class="text-dark fs-3">/*
+This is multiple line comment
+*/
+</p><br>
+<p class="text-dark fs-3 display-2">Note:The commented code will not be visible to a web page, and hence you can use comment tag for documentation purpose,and debugging purpose(recommended).</p>
+<br><br>
+<span class="text-primary fs-5">Media queries</span><br>
+<p class="text-dark fs-3 display-2">Media queries are CSS codes which are used for making CSS properties looks responsive in every screen(devices).</p><br>
+<p class="text-dark fs-3 display-2">Media queries are added to CSS style sheets(external css). In CSS, you can use the "@media" rule to specify the conditions under which a style sheet should be applied.</p><br> <p class="text-dark fs-3">Example:</p><br>
+<p class="text-dark fs-3 display-2">@media screen(max-width: 768px) {
+write css condition here... 
+}
+</p><br>
+<p class="text-dark fs-3 display-2">@media screen(min-width: 768px) {
+write CSS condition here... 
+}
+</p>
+
+</p><br>
+<p class="text-dark fs-3 display-3">The first @media code specifies the style sheet should be applied only to screens with a maximum width of 768 pixels which is for smartphone responsiveness.<br>
+The second @media code specifies the style sheet should be applied only to screens with a minimum of 768 pixels(desktop, laptops etc) responsiveness.</p>
+<br>
+<p class="text-dark fs-3 display-2">Within the "@media" rule, you can specify the conditions that must be met for the style sheet to be applied. These conditions can be based on the width, height, orientation, aspect ratio, and resolution.
+</p><br>
+<p class="text-dark fs-4">Media queries illustration in every screen(devices) below:</p><br>
+<img src="mediaqueries.jpg" class="d-100 w-100" alt="media queries illustration">
+<br><br>
+<span class="text-primary fs-5">CSS Cheatsheet:</span><br><br>
+<p class="text-dark fs-3 display-2">Css cheatsheet makes you to learn CSS quickly and efficiently at once.</p><br>
+<p class="text-dark fs-3">Here is css cheat sheet and explanation below.</p>
+<br>
+<img src="csscheatsheet.jpg" class="d-block w-100"alt="">
+
+<br><br>
+<p class="text-dark fs-4">Note:
+All the highlighted texts are the main point.</p>
+<br><br>
+<p class="text-dark fs-3 display-2">Here come the third web language:<br>
+Javascript(programming language).</p>
+<br><br>
+<p clasd="text-dark fs-3">The best way is to practice what you have learned so far.
+Download code editor and start your coding journey.
+See you build that amazing website.</p>
+<br><br>
+<div class="container-fluid" id="footer">
+<div class="row">
+<div class="col">
+<a href="frontendhtml.html" class="btn btn-danger btn-outline-dark text-light">Prev Course</a>
+<a href="#" class="btn btn-primary btn-outline-dark text-light">Back to Top</a>
+<a href="frontendjs.html" class="btn btn-success btn-outline-dark text-light">Next Course</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

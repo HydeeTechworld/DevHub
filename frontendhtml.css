@@ -1,0 +1,22 @@
+body{
+background-color:#101010 
+}
+*{
+border-sizing:border-box;
+}
+table, th, td {
+  border:3px solid #fff;
+padding:5px 5px 
+}
+#footer{
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+.btn{
+font-size:19px
+}
+p{
+font-weight:bold;
+}
